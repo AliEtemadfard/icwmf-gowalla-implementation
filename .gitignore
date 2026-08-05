@@ -1,0 +1,51 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter and editor state
+.ipynb_checkpoints/
+.jupyter/
+.vscode/
+.idea/
+
+# Generated experiment artifacts
+cache/
+outputs/
+logs/
+*.log
+*.tmp
+*.bak
+
+# Large local datasets
+Gowalla_totalCheckins.txt
+Gowalla_edges.txt
+loc-gowalla_totalCheckins.txt.gz
+loc-gowalla_edges.txt.gz
+*.txt.gz
+*.csv
+*.json
+*.npy
+*.npz
+*.parquet
+*.pkl
+*.pickle
+
+# Exported notebook reports and local project documents
+Ali_Etemadfard_ICWMF_Gowalla*.html
+*.pdf
+*.docx
+*.zip
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
